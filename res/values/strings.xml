@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, mytest!</string>
+    <string name="app_name">西德烟感物联网远程控制系统</string>
+    <string name="shezhiwendu">当前温度值(℃)</string>
+</resources>

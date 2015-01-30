@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="西德烟感远程控制系统登录入口" 
+    android:paddingTop="20px" 
+    android:paddingLeft="100px" 
+    android:paddingBottom="20px"/>
+    
+<TextView 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:id="@+id/textView1" 
+	android:text="用户登录" 
+	android:layout_marginLeft="180dip"></TextView>
+	
+<LinearLayout 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout1">
+	
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/textView2" 
+    android:text="用户名：" 
+    android:layout_marginLeft="50dip"></TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/username"
+    android:hint="请输入登录帐号"></EditText>
+    
+</LinearLayout>
+<LinearLayout 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout2">
+	
+    <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/textView3" 
+    android:text="密    码：" 
+    android:layout_marginLeft="50dip"></TextView>
+    
+    <EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:id="@+id/password"
+    android:inputType="number"
+    android:password="true"></EditText>
+    
+</LinearLayout>
+<LinearLayout 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout3">
+
+    <Button
+        android:id="@+id/buttondenglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dip"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消" />
+    
+</LinearLayout>
+</LinearLayout>
